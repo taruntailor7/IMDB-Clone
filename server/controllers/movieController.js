@@ -22,7 +22,7 @@ exports.getAllMovies = async (req, res) => {
       {
         headers: {
           "x-rapidapi-key":
-            "a98af8c3c3mshd6360b1b9750341p1cc4f5jsnaa6a85f371e6",
+            process.env.REACT_APP_OMDB_RAPID_API_KEY,
           "x-rapidapi-host": "imdb236.p.rapidapi.com",
         },
       }
