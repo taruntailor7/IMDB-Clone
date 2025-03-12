@@ -1,0 +1,96 @@
+.movie-form-container {
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .imdb-search {
+    margin-bottom: 1em;
+  }
+  
+  .imdb-search label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .imdb-search-input {
+    display: flex;
+    gap: 0.5em;
+  }
+  
+  .imdb-search-input input {
+    flex-grow: 1;
+    padding: 0.5em;
+  }
+  
+  .imdb-search-input button {
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .movie-form .form-group {
+    margin-bottom: 1em;
+  }
+  
+  .movie-form .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .movie-form .form-group input,
+  .movie-form .form-group textarea {
+    width: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+  }
+  
+  .producer-section, .actors-section {
+    margin-top: 1.5em;
+    border-top: 1px solid #ddd;
+    padding-top: 1em;
+  }
+  
+  .add-actor-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1em;
+  }
+  
+  .add-actor-btn:hover {
+    background-color: #218838;
+  }
+  
+  .actor-group {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 0.75em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
