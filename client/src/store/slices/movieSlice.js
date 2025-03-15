@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://imdb-clone-ow4p.onrender.com';
 
 export const fetchMovies = createAsyncThunk('movies/fetchMovies', async (_, { getState }) => {
   const token = getState().auth.token;

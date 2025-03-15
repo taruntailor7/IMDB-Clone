@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // Adjust your server endpoint as needed:
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://imdb-clone-ow4p.onrender.com';
 
 export const loginUser = createAsyncThunk('auth/loginUser', async (credentials, { rejectWithValue }) => {
   try {

@@ -52,7 +52,8 @@ body {
   padding: 1em;
 }
 
-.navbar-left, .navbar-right {
+.navbar-left,
+.navbar-right {
   display: flex;
 }
 
@@ -64,6 +65,16 @@ body {
 
 .nav-link:hover {
   text-decoration: underline;
+}
+
+/* Style for the logout button to look like a link */
+.logout-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 0.80em;
+  cursor: pointer;
+  margin-right: 1em;
 }
 
 .container {
